@@ -1,0 +1,134 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <section class="hero js-liquify-trigger c-author">
+        
+      <h1>
+        Embody Language
+      </h1>
+
+      <sub>
+        <br /><br />
+        A Thesis Project Investigating Dance, Songlines, and Memory
+      </sub>
+          <div class="framer squiggle">
+            <img class="framer" src="black-outline.png" loading="eager"> 
+      </div>
+
+
+    </section>
+
+    <section class="contentful">
+      <div class="image js-ink-trigger c-transition ">
+        <img src="bfd.jpg" loading="lazy">
+              
+          <p class="alt">    <b>The Power of Orality, Song, and Dance</b> <br>(Baining Fire Dance of Papua New Guinea) </p>
+      </div>
+      
+    </section>
+
+    <section class="contentful">
+      <div class="image js-ink-trigger c-transition  ">
+        <img loading="lazy" src="hopi.gif"/>
+        <p class="alt"><b>The Transmission of Knowledge through Movement</b> <br>(Hopi Mixed Animal Dance) </p>
+      </div>
+     
+    </section>
+
+    <section class="contentful  ">
+      <div class="image js-ink-trigger c-transition ">
+     <img  src="propprioception.gif" loading="lazy" >
+     <p class="alt"><b>Martial Practice as Survival</b> <br>(Artwork derived from Capoiera Movement) </p>
+
+      </div>
+     
+    </section>
+
+    <section class="contentful ">
+      <div class="image js-ink-trigger c-transition ">
+     <img loading="lazy" src="dmt.jpg">
+     <p class="alt">    <b>Therapeutic and Emotional Saliency</b> <br>(Photo of Fran J. Levy) </p>
+    </div>
+     
+    </section>
+
+    <section class="contentful ">
+      <div class="image js-ink-trigger c-transition ">
+        <img loading="lazy" src="dreamscapespeak.jpg" />
+         <p class="alt">    <b>Prototyping in New Learning Environments</b> <br>(The Art History Dreamscape) </p>
+
+    </div>
+      
+    </section>
+
+    <section class="contentful ">
+
+      <div class="image js-ink-trigger c-transition ">
+                <img loading="lazy" src="gifmap.gif" />
+                <p class="alt">    <b>In Summation</b> <br> </p>
+              </div>
+    </section>
+
+   
+
+    <svg style="height: 0; opacity: 0; visibility: hidden;">
+      <filter id="liquify">
+        <feTurbulence
+          baseFrequency="0.015"
+          numOctaves="3"
+          result="warp"
+          type="fractalNoise"
+        ></feTurbulence>
+        <feDisplacementMap
+          id="liquid"
+          in="SourceGraphic"
+          in2="warp"
+          scale="300"
+          xChannelSelector="R"
+          yChannelSelector="B"
+        ></feDisplacementMap>
+      </filter>
+    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+
+    
+    <filter id="squiggly-0">
+      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+      <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="8" />
+    </filter>
+    <filter id="squiggly-1">
+      <feTurbulence id="turbulence" baseFrequency="0.04" numOctaves="3" result="noise" seed="1"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+    
+    <filter id="squiggly-2">
+      <feTurbulence id="turbulence" baseFrequency="0.01" numOctaves="3" result="noise" seed="2"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+    </filter>
+    <filter id="squiggly-3">
+      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+    </filter>
+    
+    <filter id="squiggly-4">
+      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+    </filter>
+  </defs> 
+</svg>
+    <script src="fadin.js"></script>
+    <script src="floatparticles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="liquify.js"></script>
+    <!-- <script src="slides.js"></script> -->
+  </body>
+</html>
