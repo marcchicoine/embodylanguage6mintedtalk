@@ -369,4 +369,13 @@ body::-webkit-scrollbar { width: 0 !important; }
   width: 100px !important;
 } */
 
-
+.ar {
+  height: 540px;
+  width:auto;
+  margin:0 auto;
+  text-align: center;
+}
+.ardiv {
+  text-align: center;
+  margin:0 auto;
+}
